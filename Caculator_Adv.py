@@ -10,7 +10,7 @@ class Calculator:
         self.gui_win.title("Scientific Calculator")
         self.gui_win.geometry("750x700")
         self.gui_win.configure(bg="cadet blue")
-        self.gui_win.iconbitmap('calci32.ico')
+        # self.gui_win.iconbitmap('calci32.ico')
 
         self.MainFrame = Frame(self.gui_win, bd=18, relief=RIDGE, bg='powder blue')
         self.MainFrame.pack(expand=True, fill='both')
